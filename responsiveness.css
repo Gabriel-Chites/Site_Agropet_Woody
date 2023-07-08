@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1100px) {
+  #botoes {
+    margin-right: 10% !important;
+    column-gap: 10px;
+  }
+  #logo-header {
+    margin-left: 20px;
+  }
+
+  #sobre {
+    margin-top: -110px;
+    margin-bottom: -120px;
+    font-size: 1px !important;
+  }
+
+  #container-sobre {
+    font-size: 16px !important;
+  }
+
+  #services-img {
+    width: 250px;
+    height: 180px;
+  }
+
+  #container-services-text {
+    justify-content: center;
+    font-weight: 1000;
+  }
+
+  .texto-links-contatos {
+    font-size: 14px;
+  }
+
+  #localizacao {
+    padding-top: 5vh;
+  }
+}
+@media only screen and (max-width: 750px) {
+  /*inicio header*/
+  #header {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10vh !important;
+  }
+  #principal {
+    margin-top: 10vh !important;
+    margin-bottom: 10vh !important;
+    background-image: url("./img/imagem-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #apresentacao {
+    margin-top: 10vh;
+    width: 0% !important;
+    background-image: url("./img/imagem-mobile.jpg");
+  }
+
+  #logo_header {
+    height: 40px !important;
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  #botoes {
+    margin: auto !important;
+    padding-bottom: 5px;
+    column-gap: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*fim header*/
+
+  /* Inicio Sobre */
+
+  #sobre {
+    margin-top: 0px;
+    margin-bottom: -50px;
+    font-size: 1px !important;
+  }
+
+  #container-sobre {
+    font-size: 14px !important;
+  }
+
+  /* Final Sobre */
+
+  /* Inicio Serviços */
+  #services {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 0vh;
+  }
+
+  #services-img {
+    align-items: left;
+    margin-right: 20px !important;
+    margin-top: 50px !important;
+    width: 180px !important;
+    height: 150px !important;
+  }
+
+  .services-text {
+    margin: 70px 70px 50px 50px !important;
+    font-size: 20px !important;
+  }
+
+  /* Final Serviços */
+
+  /* Inicio Contatos */
+  #contatos {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+  }
+
+  #texto-contatos {
+    font-size: 50px !important;
+  }
+
+  /* Final Contatos */
+
+  #localizacaotitulo {
+    font-size: 50px !important;
+  }
+}
+@media only screen and (max-width: 520px){
+    #botoes{
+        display: none !important;
+    }
+    #apresentacao{
+        margin-bottom: 0px !important;
+    }
+    #services-img {
+        margin-right: 0px !important;
+        margin-left: -25px;
+        width: 170px !important;
+        height: 140px !important;
+        grid-area: image !important;
+        box-shadow: none !important;
+      }
+} 
+@media only screen and (max-width: 400px) {
+  /*inicio header*/
+
+  #header {
+    display: flex;
+    justify-content: center;
+    margin-top: -10vh !important;
+  }
+  #principal {
+    margin-top: 10vh !important;
+    background-image: url("./img/imagem-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  #logo_header {
+    height: 40px !important;
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+  }
+  #apresentacao {
+    height: 320px;
+  }
+
+  #botoes {
+    display: none !important;
+  }
+
+  /*fim header*/
+
+  /* Inicio Sobre */
+
+  #sobre {
+    margin-top: 0px !important;
+    margin-bottom: -50px;
+    font-size: 1px !important;
+  }
+
+  #container-sobre {
+    font-size: 14px !important;
+  }
+
+  /* Final Sobre */
+
+  /* Inicio Serviços */
+
+  #services {
+    grid-template-areas:
+      "text text"
+      "image image" !important;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  #services-img {
+    margin-left: 50px ;
+    width: 200px !important;
+    height: 150px !important;
+    grid-area: image !important;
+    box-shadow: none !important;
+  }
+
+  #container-services-text {
+    grid-area: text !important;
+  }
+  /* Final Serviços */
+
+  /* Inicio localizacao */
+  #localizacaotitulo {
+    font-size: 30px !important;
+  }
+  /* Final localizacao */
+}
